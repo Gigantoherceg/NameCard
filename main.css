@@ -1,0 +1,98 @@
+
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.card {
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .6);
+  width: 400px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  box-shadow: hsla(0, 0%, 0%, 1) 10px 10px 80px;
+}
+
+.foto{
+  margin-top: -100px;
+}
+
+.name {
+	font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.adatok{
+  margin-top: 20px;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.some-word {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./assets/Background.jpg') no-repeat left top fixed;
+  background-size: cover;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.some-word {
+  font-size: 16px;
+	font-weight: bold;
+  text-align: justify;
+}
+
+.pic-name, .access {
+  text-align: center;
+}
+
+.pic-name .adatok {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.foto{
+  min-height: 200px;  
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin: 70px auto;
+  border-radius: 50%;
+  transition: width 1.5s, height 1.5s, margin 1.5s;
+}
+
+img:hover {
+  width: 176px;
+  height: 176px;
+  margin: 10px auto;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.fa {
+  margin-top: -20px;
+}
